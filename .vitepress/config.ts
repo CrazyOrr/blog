@@ -91,7 +91,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       message:
         '若无特别声明，所有内容均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">CC BY-NC-SA 4.0</a> 协议授权',
       copyright:
-        'Copyright © 2024 bsdayo | <a href="https://github.com/bsdayo/blog" target="_blank">GitHub</a>',
+        'Copyright © 2021-2025 bsdayo | <a href="https://github.com/bsdayo/blog" target="_blank">GitHub</a>',
     },
   },
 
