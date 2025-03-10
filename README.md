@@ -10,6 +10,8 @@ Powered by VitePress & Vuetify
 **|**
 **[文章](https://bsdayo.moe/posts/)**
 **|**
+**[工具](https://bsdayo.moe/tools/)**
+**|**
 **[友链](https://bsdayo.moe/links/)**
 **|**
 **[关于](https://bsdayo.moe/about/)**

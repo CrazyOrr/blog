@@ -60,7 +60,6 @@ export default defineConfigWithTheme<ThemeConfig>({
 
     nav: [
       { text: '文章', link: '/posts/' },
-      // { text: '文档', link: '/docs/' },
       { text: '工具', link: '/tools/' },
       { text: '友链', link: '/links/' },
       { text: '关于', link: '/about/' },
