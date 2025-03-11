@@ -131,7 +131,7 @@ export default {
 ```markdown
 # Markdown Extension Examples
 
-<v-btn color="indigo">Here is a button!</v-btn> // [!code ++]
+<v-btn color="indigo">Here is a button!</v-btn>
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 ```

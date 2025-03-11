@@ -57,7 +57,7 @@ $ npx unocss
 <head>
     <!-- ... -->
     <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="uno.css" /> // [!code ++]
+    <link rel="stylesheet" href="uno.css" /> <!-- [!code ++] -->
     <!-- ... -->
     <HeadOutlet />
 </head>

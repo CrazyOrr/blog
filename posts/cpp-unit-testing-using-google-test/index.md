@@ -71,25 +71,25 @@ project(example)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# 获取源码文件列表，并存储在变量里// [!code ++]
-file(GLOB_RECURSE SRC_LIST src/*.cpp)// [!code ++]
-file(GLOB_RECURSE TEST_SRC_LIST tests/*.cpp)// [!code ++]
- // [!code ++]
-# 默认可执行目标// [!code ++]
-add_executable(example_main ${SRC_LIST})// [!code ++]
- // [!code ++]
-# 添加 GoogleTest// [!code ++]
-add_subdirectory(third_party/googletest)// [!code ++]
-include_directories(src third_party/googletest/googletest/include)// [!code ++]
- // [!code ++]
-# 由于可执行目标无法链接进另一个可执行目标，这里重新把源码打包成一个静态库目标// [!code ++]
-add_library(example_lib ${SRC_LIST})// [!code ++]
-# 单元测试目标// [!code ++]
-add_executable(example_tests ${TEST_SRC_LIST})// [!code ++]
-# 将 gtest_main 和主程序链接进单元测试目标// [!code ++]
-# gtest_main 是 GoogleTest 已经为我们写好了的入口，可以自动找到并执行已定义的测试// [!code ++]
-# 注意 gtest_main 需要在 example_lib 之前链接，否则 gtest_main 的入口函数会被覆盖// [!code ++]
-target_link_libraries(example_tests gtest_main example_lib)// [!code ++]
+# 获取源码文件列表，并存储在变量里
+file(GLOB_RECURSE SRC_LIST src/*.cpp) # [!code ++]
+file(GLOB_RECURSE TEST_SRC_LIST tests/*.cpp) # [!code ++]
+
+# 默认可执行目标
+add_executable(example_main ${SRC_LIST}) # [!code ++]
+
+# 添加 GoogleTest
+add_subdirectory(third_party/googletest) # [!code ++]
+include_directories(src third_party/googletest/googletest/include) # [!code ++]
+
+# 由于可执行目标无法链接进另一个可执行目标，这里重新把源码打包成一个静态库目标
+add_library(example_lib ${SRC_LIST}) # [!code ++]
+# 单元测试目标
+add_executable(example_tests ${TEST_SRC_LIST}) # [!code ++]
+# 将 gtest_main 和主程序链接进单元测试目标
+# gtest_main 是 GoogleTest 已经为我们写好了的入口，可以自动找到并执行已定义的测试
+# 注意 gtest_main 需要在 example_lib 之前链接，否则 gtest_main 的入口函数会被覆盖
+target_link_libraries(example_tests gtest_main example_lib) # [!code ++]
 ```
 :::
 
