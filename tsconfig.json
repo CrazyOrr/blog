@@ -8,6 +8,7 @@
     "noUnusedLocals": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     "paths": {
       "@/*": ["./*"]
     }

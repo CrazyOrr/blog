@@ -20,12 +20,16 @@ $custom-blocks: (
   --vp-c-brand-1: #0d47a1;
   --vp-c-brand-2: #1565c0;
   --vp-c-brand-3: #1976d2;
+
+  --vp-nav-bg-color: #{rgba(#ffffff, 0.85)};
 }
 
 .dark {
   --vp-c-brand-1: #64b5f6;
   --vp-c-brand-2: #1976d2;
   --vp-c-brand-3: #1565c0;
+
+  --vp-nav-bg-color: #{rgba(#1b1b1f, 0.85)};
 }
 
 ::-webkit-scrollbar {
@@ -82,6 +86,10 @@ $custom-blocks: (
   text-align: center;
   color: var(--vp-c-text-2);
   margin-top: 8px;
+}
+
+.VPNavBar {
+  backdrop-filter: blur(8px);
 }
 
 // 导航栏的 Logo

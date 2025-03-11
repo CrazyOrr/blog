@@ -4,7 +4,8 @@
     "dev": "vitepress dev . --host",
     "build": "vitepress build .",
     "preview": "vitepress preview .",
-    "new": "pwsh ./scripts/new-post.ps1"
+    "new": "pwsh ./scripts/new-post.ps1",
+    "summary": "node --env-file-if-exists=.env ./scripts/summary.js"
   },
   "devDependencies": {
     "@giscus/vue": "^2.4.0",
@@ -19,6 +20,8 @@
     "markdown-it-mathjax3": "^4.3.2",
     "medium-zoom": "^1.1.0",
     "motion": "^11.18.2",
+    "openai": "^4.86.2",
+    "pangu": "^4.0.7",
     "postcss": "^8.5.3",
     "reka-ui": "^2.0.2",
     "sass": "^1.85.1",

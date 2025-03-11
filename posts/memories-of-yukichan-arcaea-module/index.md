@@ -205,30 +205,17 @@ GitHub 上全面开源。
 
 ## 大事记
 
-<v-timeline side="end">
-  <v-timeline-item size="small" v-for="(event, date) in events">
-    <v-card>
-      <v-card-title>{{ date }}</v-card-title>
-      <v-card-text>{{ event }}</v-card-text>
-    </v-card>
-  </v-timeline-item>
-</v-timeline>
-
-<script setup>
-const events = {
-  "2022.01.22": "lancelot 第一次提交",
-  "2022.01.27": "QQ 一群建立",
-  "2022.02.12": "发布哔哩哔哩专栏《全新的 Arcaea 查分bot —— lancelot》",
-  "2022.03.17": "QQ 频道建立",
-  "2022.03.18": "QQ 二群建立",
-  "2022.06.03": "暮雪酱 v1 第一次提交",
-  "2022.07.08": "暮雪酱 v1 正式投入使用",
-  "2022.10.15": "lancelot 放弃维护，暮雪酱 v2 第一次提交",
-  "2022.11.08": "暮雪酱 v1 归档，全面切换至暮雪酱 v2",
-  "2022.12.14": "暮雪酱 2022 年度调查问卷开放",
-  "2023.01.28": "暮雪酱 v3 正式发布，哔哩哔哩官号开通",
-  "2023.03.10": "Arcaea Online 官宣",
-  "2023.04.26": "ArcaeaLimitedAPI 停止服务",
-  "2023.04.27": "Arcaea Online 发布，ArcaeaUnlimitedAPI 停止服务，暮雪酱查分功能停止服务",
-}
-</script>
+- **2022.01.22**：lancelot 第一次提交
+- **2022.01.27**：QQ 一群建立
+- **2022.02.12**：发布哔哩哔哩专栏《全新的 Arcaea 查分bot —— lancelot》
+- **2022.03.17**：QQ 频道建立
+- **2022.03.18**：QQ 二群建立
+- **2022.06.03**：暮雪酱 v1 第一次提交
+- **2022.07.08**：暮雪酱 v1 正式投入使用
+- **2022.10.15**：lancelot 放弃维护，暮雪酱 v2 第一次提交
+- **2022.11.08**：暮雪酱 v1 归档，全面切换至暮雪酱 v2
+- **2022.12.14**：暮雪酱 2022 年度调查问卷开放
+- **2023.01.28**：暮雪酱 v3 正式发布，哔哩哔哩官号开通
+- **2023.03.10**：Arcaea Online 官宣
+- **2023.04.26**：ArcaeaLimitedAPI 停止服务
+- **2023.04.27**：Arcaea Online 发布，ArcaeaUnlimitedAPI 停止服务，暮雪酱查分功能停止服务
