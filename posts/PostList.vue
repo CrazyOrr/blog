@@ -4,7 +4,7 @@
     <div
       v-for="post in year.posts"
       :key="post.id"
-      class="pa-4 not-last:border-b not-last:border-b-border not-last:border-b-solid"
+      class="pa-4 not-last:border-b not-last:border-b-divider not-last:border-b-solid"
     >
       <a
         :href="getPostHref(post.id)"
