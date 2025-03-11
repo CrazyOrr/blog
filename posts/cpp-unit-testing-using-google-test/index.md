@@ -27,7 +27,8 @@ example/
 
 初始的 CMakeLists.txt 内容如下：
 
-```cmake
+::: code-group
+```cmake [CMakeLists.txt]
 cmake_minimum_required(VERSION 3.26)
 project(example)
 
@@ -35,6 +36,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(example src/main.cpp)
 ```
+:::
 
 ## 在项目中添加 GoogleTest
 
@@ -62,7 +64,8 @@ git submodule add https://github.com/google/googletest.git
 
 ### 修改 CMakeLists.txt
 
-```cmake
+::: code-group
+```cmake [CMakeLists.txt]
 cmake_minimum_required(VERSION 3.26)
 project(example)
 
@@ -88,14 +91,14 @@ add_executable(example_tests ${TEST_SRC_LIST})// [!code ++]
 # 注意 gtest_main 需要在 example_lib 之前链接，否则 gtest_main 的入口函数会被覆盖// [!code ++]
 target_link_libraries(example_tests gtest_main example_lib)// [!code ++]
 ```
+:::
 
 ## 编写测试代码
 
 假设我们已经写好了一个需要测试的模块，例如 `src/add.h` 和 `src/add.cpp`：
 
-```cpp
-// src/add.h
-
+::: code-group
+```cpp [src/add.h]
 #ifndef EXAMPLE_ADD_H
 #define EXAMPLE_ADD_H
 
@@ -103,10 +106,10 @@ int add(int a, int b);
 
 #endif
 ```
+:::
 
-```cpp
-// src/add.cpp
-
+::: code-group
+```cpp [src/add.cpp]
 #include "add.h"
 
 int add(int a, int b)
@@ -114,12 +117,12 @@ int add(int a, int b)
     return a + b;
 }
 ```
+:::
 
 在 `tests` 目录下新建一个 `add.tests.cpp`（名称随意），并编写基本的测试代码：
 
-```cpp
-// tests/add.tests.cpp
-
+::: code-group
+```cpp [tests/add.tests.cpp]
 #include "gtest/gtest.h"
 #include "add.h"
 
@@ -135,6 +138,7 @@ TEST(test_add, will_fail)
     EXPECT_TRUE(add(4, 5) == 10);
 }
 ```
+:::
 
 其中：
 

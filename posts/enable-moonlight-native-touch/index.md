@@ -10,7 +10,8 @@ Moonlight 实际上已经做好了原生触控的支持，但是在源码中被�
 修改 [app/src/main/java/com/limelight/Game.java](https://github.com/moonlight-stream/moonlight-android/blob/master/app/src/main/java/com/limelight/Game.java#L2019-L2023)，
 去掉第 2019 和第 2023 行（可能不一致，编写本文时的提交为 `f54f8c8`）的注释即可
 
-```java:line-numbers=2016 {4,8}
+::: code-group
+```java:line-numbers=2016 [app/src/main/java/com/limelight/Game.java] {4,8}
 // TODO: Re-enable native touch when have a better solution for handling
 // cancelled touches from Android gestures and 3 finger taps to activate
 // the software keyboard.
@@ -20,6 +21,7 @@ if (!prefConfig.touchscreenTrackpad && trySendTouchEvent(view, event)) {
     return true;
 }
 ```
+:::
 
 随后编译安装，在设置里找到“将触控屏作为触摸板使用”并关闭，就可以享受丝滑的原生触控了。
 

@@ -26,9 +26,8 @@ $ npm install -D unocss @unocss/cli
 
 在项目根目录创建一个 `uno.config.ts`，用于存放 UnoCSS 的配置：
 
-```ts
-// uno.config.ts
-
+::: code-group
+```ts [uno.config.ts]
 import { defineConfig, presetUno } from 'unocss'
 
 export default defineConfig({
@@ -41,6 +40,7 @@ export default defineConfig({
   },
 })
 ```
+:::
 
 随后，可以执行以下命令打包 UnoCSS 输出：
 
@@ -52,7 +52,8 @@ $ npx unocss
 
 随后在 `App.razor` 中引用：
 
-```razor
+::: code-group
+```razor [App.razor]
 <head>
     <!-- ... -->
     <link rel="stylesheet" href="app.css" />
@@ -61,18 +62,19 @@ $ npx unocss
     <HeadOutlet />
 </head>
 ```
+:::
 
 在随便一个 razor 文件里加一个 UnoCSS class 试一下：
 
-```razor{7}
-<!-- Components/Pages/Home.razor -->
-
+::: code-group
+```razor{5} [Components/Pages/Home.razor]
 @page "/"
 
 <PageTitle>Home</PageTitle>
 
 <h1 class="text-red">Hello, world!</h1>
 ```
+:::
 
 再次执行 `npx unocss`，会生成新的 `wwwroot/uno.css`，随后重启应用即可看到效果。
 
