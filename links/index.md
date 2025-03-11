@@ -14,7 +14,7 @@ links:
 
   - title: Restent Ou
     description: 静寂に問う 答えを求めて
-    avatar: https://library.gxres.net/images/icons/avatar.webp
+    avatar: https://library.gxres.net/images/avatars/gxres042.webp
     url: https://www.gxres.net
 
   - title: LY 的博客
@@ -49,7 +49,7 @@ links:
 
   - title: tomato
     description: tomato的小窝
-    avatar: https://hatsune.tomato-aoarasi.com/blog/statics/icon/head.jpg
+    avatar: https://avatars.githubusercontent.com/u/122085855
     url: https://wakaba.tomato-aoarasi.com
 
   - title: JR's Blog
