@@ -4,11 +4,11 @@ comment: true
 
 # 关于
 
-## 关于博客
+## 关于站点
 
 经历过 v1 的 Hexo、v2 用 Vue 从头写、v3 的 Hugo，博客 v4 终于还是来了...
 
-这一次是基于 [VitePress](https://vitepress.dev/) 的纯前端 SSG 博客，虽然和 v2 一样还是基于 Vue，但是底层（例如 Markdown
+这一次是基于 [VitePress](https://vitepress.dev/) 的纯前端 SSG 站点，虽然和 v2 一样还是基于 Vue，但是底层（例如 Markdown
 处理、脚手架等等等等）就完全不用自己写了。魔改了一下默认主题，先用着试试
 
 VitePress 好用的功能还是挺多的，比如直接在 Markdown 中使用 Vue 组件。例如：
@@ -26,7 +26,7 @@ VitePress 好用的功能还是挺多的，比如直接在 Markdown 中使用 Vu
 更多样式预览可以前往[这里](/posts/blog-style-overview/)查看
 :::
 
-整个博客已经[开源在了 GitHub 上](https://github.com/bsdayo/blog)，内容部分采用 CC BY-NC-SA 4.0 协议，其他部分采用 MIT 协议。
+整个站点已经[开源在了 GitHub 上](https://github.com/bsdayo/blog)，内容部分采用 CC BY-NC-SA 4.0 协议，其他部分采用 MIT 协议。
 
 ## PGP 公钥
 

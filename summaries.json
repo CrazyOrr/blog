@@ -1,8 +1,6 @@
 {
   "analyze-dotnet-memory-snapshots-with-dotmemory": "本文介绍了如何使用 dotMemory 工具分析 .NET 程序的内存快照，特别是在 Linux 服务器上生成和分析内存快照的步骤。文章详细说明了如何通过 `dotnet-dump` 工具生成内存快照，并将其导入 dotMemory 进行分析。还介绍了 dotMemory 中的一些关键功能，如按类型和实例分类查看内存对象。此外，文章还提到了一些可能遇到的问题及其解决方法，如导入快照失败的情况。",
   "blazor-unocss-integration": "本文介绍了如何在 Blazor 项目中集成 UnoCSS，以实现原子化 CSS 的开发方式。通过创建 Blazor 项目、安装 UnoCSS 并配置 `uno.config.ts` 文件，开发者可以生成所需的 CSS 文件并在 Blazor 项目中引用。文章还详细说明了如何使用 `npx unocss --watch` 和 `dotnet watch` 实现热重载，从而在修改 Razor 文件时自动更新样式，提升开发效率。",
-  "blog-components-overview": "这篇文章介绍了博客中的两个主要组件：按钮（Button）和输入框（Input）。按钮组件展示了三种不同的样式，包括带有图标的按钮和变体按钮。输入框组件则展示了两个带有占位符的输入框，分别用于输入姓名和电子邮件。文章还引入了 `lucide-vue-next` 库中的图标用于按钮组件。",
-  "blog-style-overview": "这篇文章展示了博客中使用的多种 Markdown 样式和功能。内容包括基本元素如斜体、粗体、列表和链接，代码块的展示，表格的创建，以及数学公式的嵌入。此外，文章还介绍了自定义文本块的使用，如备注、摘要、提示、警告等，这些样式借鉴了 Material for MkDocs 的设计。通过这些示例，用户可以了解如何在博客中有效地使用 Markdown 来增强内容的可读性和表现力。",
   "cpp-unit-testing-using-google-test": "本文介绍了如何在 C++ 项目中使用 GoogleTest 进行单元测试。首先，文章讲解了如何通过下载源码、Git Clone 或 Git Submodule 的方式将 GoogleTest 添加到项目中，并详细说明了如何修改 CMakeLists.txt 文件以集成 GoogleTest。接着，文章展示了如何编写测试代码，包括创建测试文件和编写测试用例。最后，文章提供了通过命令行和 IDE（如 CLion）执行测试的步骤，并展示了测试结果的输出示例。通过这些步骤，开发者可以有效地为 C++ 项目编写和运行单元测试，确保代码的可靠性。",
   "deploy-aspnetcore-on-aliyun-fc": "本文介绍了如何使用阿里云函数计算（Serverless）低成本部署 ASP.NET Core 应用。Serverless 架构具有运维成本低、按需计费、弹性扩容等优势，特别适合不需要持续后台任务的接口服务。文章详细讲解了从创建 ASP.NET Core 项目、准备运行时、创建层、部署函数到外网访问和自定义域名的完整流程。通过阿里云函数计算，用户可以以极低的成本部署和运行 ASP.NET Core 应用，尤其适合轻量级接口服务。",
   "enable-moonlight-native-touch": "Moonlight Android 端实际上已经支持原生触控功能，但由于与三指打开键盘的功能冲突，该功能在源码中被注释掉了。通过修改 `Game.java` 文件中的相关代码，取消注释后即可启用原生触控支持。启用后，用户可以在设置中关闭 “将触控屏作为触摸板使用” 选项，从而享受更流畅的原生触控体验。这一修改在局域网环境下提供了接近 Windows 平板的操作体验。",
