@@ -23,7 +23,7 @@ VitePress 好用的功能还是挺多的，比如直接在 Markdown 中使用 Vu
 ::: tip 这是一个自定义的文本块
 ♪sakana——\\(＞○＜\\)♪ &emsp; `:fish:` → :fish: Emoji 支持
 
-更多样式预览可以前往[这里](/posts/blog-style-overview/)查看
+更多样式预览可以前往[这里](./styles.md)查看
 :::
 
 整个站点已经[开源在了 GitHub 上](https://github.com/bsdayo/blog)，内容部分采用 CC BY-NC-SA 4.0 协议，其他部分采用 MIT 协议。

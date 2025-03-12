@@ -41,6 +41,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   ignoreDeadLinks: 'localhostLinks',
 
   themeConfig: {
+    siteBase: 'https://bsdayo.moe',
     author: 'bsdayo',
     license: 'CC BY-NC-SA 4.0',
     licenseLink: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans',

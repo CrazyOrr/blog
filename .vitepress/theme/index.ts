@@ -21,6 +21,7 @@ const theme: Theme = {
 export default theme
 
 export interface ThemeConfig extends DefaultThemeType.Config {
+  siteBase: string
   author: string
   license: string
   licenseLink: string

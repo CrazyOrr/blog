@@ -37,14 +37,15 @@
 </template>
 
 <script lang="ts" setup>
-import { useData } from 'vitepress'
+import { ThemeConfig } from '@/.vitepress/theme'
+import { useData, useRoute } from 'vitepress'
 
-const { theme, page } = useData()
-const pageLink = window.location.origin + window.location.pathname
+const { theme, page } = useData<ThemeConfig>()
+const route = useRoute()
+
+const pageLink = new URL(route.path, theme.value.siteBase).href
 const createDate = new Date(page.value.frontmatter.create ?? page.value.lastUpdated)
   .toISOString()
   .split('T')[0]
 const licenseIsCC = theme.value.license.includes('CC')
 </script>
-
-<style lang="scss" scoped></style>
