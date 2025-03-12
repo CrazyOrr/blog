@@ -21,6 +21,9 @@ const theme: Theme = {
 export default theme
 
 export interface ThemeConfig extends DefaultThemeType.Config {
+  author: string
+  license: string
+  licenseLink: string
   giscus: GiscusProps
   taglines: string[]
 }

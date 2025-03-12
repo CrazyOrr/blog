@@ -41,6 +41,9 @@ export default defineConfigWithTheme<ThemeConfig>({
   ignoreDeadLinks: 'localhostLinks',
 
   themeConfig: {
+    author: 'bsdayo',
+    license: 'CC BY-NC-SA 4.0',
+    licenseLink: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans',
     logo: 'https://avatars.githubusercontent.com/u/41754841',
 
     taglines: [
