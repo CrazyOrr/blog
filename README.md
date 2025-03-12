@@ -2,7 +2,7 @@
 
 # SynBlog v4
 
-Powered by VitePress & Vuetify
+Powered by VitePress
 
 ---
 
