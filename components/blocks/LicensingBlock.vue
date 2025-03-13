@@ -1,6 +1,6 @@
 <template>
   <div
-    class="copyright-block relative bg-bg-soft rounded-lg pa-4 overflow-hidden"
+    class="copyright-block vp-doc relative bg-bg-soft rounded-lg pa-4 overflow-hidden"
     :key="page.relativePath"
   >
     <div class="relative z-1">
