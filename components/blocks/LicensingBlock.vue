@@ -44,7 +44,7 @@ const { theme, page } = useData<ThemeConfig>()
 const route = useRoute()
 
 const pageLink = new URL(route.path, theme.value.siteBase).href
-const createDate = new Date(page.value.frontmatter.create ?? page.value.lastUpdated)
+const createDate = new Date(page.value.frontmatter.create ?? page.value.lastUpdated ?? Date.now())
   .toISOString()
   .split('T')[0]
 const licenseIsCC = theme.value.license.includes('CC')
