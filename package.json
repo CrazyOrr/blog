@@ -4,7 +4,7 @@
     "dev": "vitepress dev . --host",
     "build": "vitepress build .",
     "preview": "vitepress preview .",
-    "new": "pwsh ./scripts/new-post.ps1",
+    "new": "node ./scripts/new.js",
     "summary": "node --env-file-if-exists=.env ./scripts/summary.js"
   },
   "devDependencies": {
@@ -14,6 +14,8 @@
     "@types/webfontloader": "^1.6.38",
     "@vueuse/core": "^10.11.1",
     "clsx": "^2.1.1",
+    "commander": "^13.1.0",
+    "dayjs": "^1.11.13",
     "lucide-vue-next": "^0.378.0",
     "markdown-it-container": "^4.0.0",
     "markdown-it-footnote": "^4.0.0",
