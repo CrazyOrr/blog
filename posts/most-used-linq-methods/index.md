@@ -1,6 +1,8 @@
 ---
 title: 常用的 LINQ 方法总结
 create: 2025-03-15T16:38:23+08:00
+tags:
+  - csharp
 ---
 
 LINQ（Language Integrated Query，语言集成查询）是 C# 开发者必知必会的一项技能，有了它可以极其方便地操作各种集合类型。
