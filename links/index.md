@@ -12,6 +12,14 @@ links:
   #     github: bsdayo   # [可选] GitHub 用户名
   #     x: konobsdayo   # [可选] X (Twitter) 用户名
 
+  - title: YOLO
+     url: https://www.yolo.blue
+     description: You Only Live Once
+     author: CrazyOrr
+     avatar: https://www.yolo.blue/img/logo.png
+     socials:
+       github: CrazyOrr
+
   - title: Restent Ou
     description: 静寂に問う 答えを求めて
     avatar: https://library.gxres.net/images/avatars/gxres042.webp
